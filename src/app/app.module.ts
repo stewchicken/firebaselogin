@@ -13,6 +13,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { FIREBASE_CONFIG } from "./app.firebase.config";
 import { RegisterPage } from "../pages/register/register";
 import { LoginPage } from "../pages/login/login";
+import { MenuPage } from "../pages/menu/menu";
+import { ProductsPage } from "../pages/products/products";
+import { ShoppingPage } from "../pages/shopping/shopping";
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { LoginPage } from "../pages/login/login";
     HomePage,
     ListPage,
     LoginPage,
-    RegisterPage
+    RegisterPage,
+    MenuPage,
+    ProductsPage,
+    ShoppingPage
   ],
   imports: [
     BrowserModule,
@@ -34,7 +40,10 @@ import { LoginPage } from "../pages/login/login";
     HomePage,
     ListPage,
     LoginPage,
-    RegisterPage
+    RegisterPage,
+    MenuPage,
+    ProductsPage,
+    ShoppingPage
   ],
   providers: [
     StatusBar,
