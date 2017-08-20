@@ -28,8 +28,7 @@ export class LoginPage {
        this.navCtrl.push(MenuPage);
     }).catch(error => {
       user.email = "email  maybe wrong!"
-      user.email = "password maybe not correct!"
-
+      user.password = "password maybe not correct!"
     });
   }
 

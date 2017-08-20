@@ -16,6 +16,7 @@ import { LoginPage } from "../pages/login/login";
 import { MenuPage } from "../pages/menu/menu";
 import { ProductsPage } from "../pages/products/products";
 import { ShoppingPage } from "../pages/shopping/shopping";
+import { AddproductPage } from "../pages/addproduct/addproduct";
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ShoppingPage } from "../pages/shopping/shopping";
     RegisterPage,
     MenuPage,
     ProductsPage,
-    ShoppingPage
+    ShoppingPage,
+    AddproductPage
   ],
   imports: [
     BrowserModule,
@@ -43,7 +45,8 @@ import { ShoppingPage } from "../pages/shopping/shopping";
     RegisterPage,
     MenuPage,
     ProductsPage,
-    ShoppingPage
+    ShoppingPage,
+    AddproductPage
   ],
   providers: [
     StatusBar,
